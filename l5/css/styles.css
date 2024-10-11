@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+p {
+  margin: 0;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.inter-regular {
+  font-weight: 400;
+}
+.inter-semibold {
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: #98a2b3;
+  font-size: 15px;
+  line-height: 24px;
+}
+body {
+  padding-block: 24px;
+  background-color: #999;
+  color: #667085;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.invoice-container {
+  width: 600px;
+  background-color: #fff;
+  padding-inline: 24px;
+}
+.header {
+  padding-block: 12px;
+  text-align: center;
+  color: #6c757d;
+}
+.logo {
+  padding-block: 16px;
+  text-align: center;
+}
+.intro {
+  padding-block: 24px;
+}
+.title {
+  margin-block-end: 8px;
+  font-size: 28px;
+  line-height: 36px;
+  color: #101828;
+}
+.subtitle {
+  font-size: 15px;
+  line-height: 24px;
+  color: #6c757d;
+}
+table {
+  width: 100%;
+  margin-block: 24px;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.table th,
+.table tfooter td {
+  font-size: 16px;
+}
+.table th,
+.table td {
+  padding-block: 16px;
+  text-align: left;
+}
+.table th:nth-child(1),
+.table td:nth-child(1) {
+  width: 70%;
+}
+.table th:nth-child(2),
+.table td:nth-child(2) {
+  width: 10%;
+}
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  width: 20%;
+}
+.table th:nth-child(2),
+.table th:nth-child(3),
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  text-align: right;
+  color: #101828;
+}
+.table td:nth-child(3) {
+  font-size: 16px;
+}
+.footer {
+  padding-block: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 24px;
+}
+.footer .company,
+.footer address {
+  width: 264px;
+  font-style: normal;
+}
+footer img {
+  margin-block-end: 12px;
+}
+.footer {
+  font-size: 15px;
+}
+.company p.inter-semibold {
+  margin-block-end: 8px;
+  font-size: 16px;
+  color: #101828;
+}
