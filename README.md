@@ -1,7 +1,7 @@
 # Домашка по 6 уроку
 [Репозиторій 6-ї домашки в окремій гілці](https://github.com/ivangithubed/course-base-fr-10-2024/tree/lesson-06)
 
-[6-та домашка опублікована на GitHub Pages]()
+[6-та домашка опублікована на GitHub Pages](https://ivangithubed.github.io/course-base-fr-10-2024/)
 
 ## Структура проекту
 
