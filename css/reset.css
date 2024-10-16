@@ -2,98 +2,183 @@
  * Скидання всіх стилів для базових HTML елементів, щоб забезпечити однаковий вигляд у різних браузерах.
  */
 
- html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
- abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var,
- b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
- tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,
- footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-   margin: 0; /* Видалення зовнішніх відступів для всіх елементів */
-   padding: 0; /* Видалення внутрішніх відступів для всіх елементів */
-   border: 0; /* Видалення рамок для всіх елементів */
-   outline: 0; /* Видалення обведення для всіх елементів */
-   font-size: 100%; /* Встановлення розміру шрифту на 100% */
-   vertical-align: baseline; /* Вирівнювання елементів по базовій лінії */
-   background: transparent; /* Видалення фону для всіх елементів */
- }
- 
- /* Встановлення міжрядкового інтервалу для body */
- body {
-   line-height: 1;
- }
- 
- /* Забезпечення правильного відображення нових HTML5 елементів у старих браузерах */
- article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-   display: block;
- }
- 
- /* Видалення стандартних стилів списку для навігаційних списків */
- nav ul {
-   list-style: none;
- }
- 
- /* Видалення стандартних лапок для цитат */
- blockquote, q {
-   quotes: none;
- }
- 
- /* Видалення вмісту стандартних лапок перед та після цитат */
- blockquote:before, blockquote:after, q:before, q:after {
-   content: none;
- }
- 
- /* Встановлення базових стилів для посилань */
- a {
-   margin: 0;
-   padding: 0;
-   font-size: 100%;
-   vertical-align: baseline;
-   background: transparent;
- }
- 
- /* Встановлення стилів для елементу ins (вставлений текст) */
- ins {
-   background-color: #ff9; /* Фон жовтого кольору */
-   color: #000; /* Колір тексту чорний */
-   text-decoration: none; /* Видалення підкреслення */
- }
- 
- /* Встановлення стилів для елементу mark (виділений текст) */
- mark {
-   background-color: #ff9; /* Фон жовтого кольору */
-   color: #000; /* Колір тексту чорний */
-   font-style: italic; /* Курсивний стиль */
-   font-weight: bold; /* Жирний шрифт */
- }
- 
- /* Встановлення стилів для видаленого тексту */
- del {
-   text-decoration: line-through;
- }
- 
- /* Стилі для елементів abbr (абревіатура) та dfn (визначення терміну) */
- abbr[title], dfn[title] {
-   border-bottom: 1px dotted; /* Підкреслення пунктиром */
-   cursor: help; /* Курсор "допомога" при наведенні */
- }
- 
- /* Встановлення базових стилів для таблиць */
- table {
-   border-collapse: collapse; /* Скасування проміжків між межами таблиці */
-   border-spacing: 0; /* Встановлення відстані між межами комірок на 0 */
- }
- 
- /* Встановлення стилів для горизонтальних ліній (hr) */
- hr {
-   display: block;
-   height: 1px;
-   border: 0;
-   border-top: 1px solid #ccc; /* Верхня межа сірого кольору */
-   margin: 1em 0; /* Зовнішні відступи зверху та знизу */
-   padding: 0;
- }
- 
- /* Вирівнювання інпутів та селектів */
- input, select {
-   vertical-align: middle;
- }
- 
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0; /* Видалення зовнішніх відступів для всіх елементів */
+  padding: 0; /* Видалення внутрішніх відступів для всіх елементів */
+  border: 0; /* Видалення рамок для всіх елементів */
+  outline: 0; /* Видалення обведення для всіх елементів */
+  font-size: 100%; /* Встановлення розміру шрифту на 100% */
+  vertical-align: baseline; /* Вирівнювання елементів по базовій лінії */
+  background: transparent; /* Видалення фону для всіх елементів */
+}
+
+/* Встановлення міжрядкового інтервалу для body */
+body {
+  line-height: 1;
+}
+
+/* Забезпечення правильного відображення нових HTML5 елементів у старих браузерах */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Видалення стандартних стилів списку для навігаційних списків */
+nav ul {
+  list-style: none;
+}
+
+/* Видалення стандартних лапок для цитат */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* Видалення вмісту стандартних лапок перед та після цитат */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+/* Встановлення базових стилів для посилань */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Встановлення стилів для елементу ins (вставлений текст) */
+ins {
+  background-color: #ff9; /* Фон жовтого кольору */
+  color: #000; /* Колір тексту чорний */
+  text-decoration: none; /* Видалення підкреслення */
+}
+
+/* Встановлення стилів для елементу mark (виділений текст) */
+mark {
+  background-color: #ff9; /* Фон жовтого кольору */
+  color: #000; /* Колір тексту чорний */
+  font-style: italic; /* Курсивний стиль */
+  font-weight: bold; /* Жирний шрифт */
+}
+
+/* Встановлення стилів для видаленого тексту */
+del {
+  text-decoration: line-through;
+}
+
+/* Стилі для елементів abbr (абревіатура) та dfn (визначення терміну) */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted; /* Підкреслення пунктиром */
+  cursor: help; /* Курсор "допомога" при наведенні */
+}
+
+/* Встановлення базових стилів для таблиць */
+table {
+  border-collapse: collapse; /* Скасування проміжків між межами таблиці */
+  border-spacing: 0; /* Встановлення відстані між межами комірок на 0 */
+}
+
+/* Встановлення стилів для горизонтальних ліній (hr) */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc; /* Верхня межа сірого кольору */
+  margin: 1em 0; /* Зовнішні відступи зверху та знизу */
+  padding: 0;
+}
+
+/* Вирівнювання інпутів та селектів */
+input,
+select {
+  vertical-align: middle;
+}
+button {
+  border: none;
+  background-color: transparent;
+}

@@ -1,8 +1,164 @@
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "CeraPro";
+  src: url("../assets/fonts/CeraPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
 }
-body,
-h1,
-p {
-  margin: 0;
+
+@font-face {
+  font-family: "CeraPro";
+  src: url("../assets/fonts/CeraPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: url("../assets/fonts/CeraPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: url("../assets/fonts/CeraPro-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.cerapro {
+  font-family: "CeraPro", sans-serif;
+  font-style: normal;
+}
+
+.cerapro-regular {
+  font-weight: 400;
+}
+
+.cerapro-medium {
+  font-weight: 500;
+}
+
+.cerapro-bold {
+  font-weight: 700;
+}
+
+.cerapro-black {
+  font-weight: 900;
+}
+
+body {
+  padding-block: 25px 13px;
+  font-size: 14px;
+}
+.container {
+  max-width: 1220px;
+  margin-inline: auto;
+  padding-inline: 10px;
+}
+
+header a,
+header nav,
+nav ul,
+nav ul li,
+header button {
+  display: inline-block;
+}
+
+header > a {
+  float: left;
+}
+header button {
+  float: right;
+}
+
+.header {
+  min-height: 53px;
+  text-align: center;
+  border-block-end: 1px solid rgba(70, 163, 89, 0.5);
+  margin-block-end: 12px;
+}
+
+.header nav a {
+  color: #3d3d3d;
+  font-size: 16px;
+  padding-block-end: 25px;
+  padding-block-start: 9px;
+  margin-inline: 25px;
+  border-block-end: 3px solid transparent;
+}
+
+.header nav a.active {
+  font-weight: 700;
+  border-block-end: 3px solid #46a358;
+}
+
+.button {
+  min-width: 100px;
+  height: 35px;
+  background: #46a358;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.header .button img {
+  vertical-align: bottom;
+  margin-inline-end: 4px;
+}
+
+.hero {
+  background: linear-gradient(
+    97.77deg,
+    rgba(245, 245, 245, 0.5) -23.46%,
+    rgba(245, 245, 245, 0.5) 107.51%
+  );
+}
+
+.hero .content {
+  max-width: 670px;
+  padding: 70px 90px 85px 40px;
+  display: inline-block;
+}
+
+h1 {
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  padding-inline-start: 3px;
+  margin-block-end: 7px;
+}
+
+h2 {
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  margin-block-end: 5px;
+}
+
+h2 span {
+  color: #46a358;
+}
+
+.hero .content p {
+  line-height: 24px;
+  color: #727272;
+  margin-block-end: 44px;
+}
+
+.hero .button {
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  padding: 10px 25px;
+  height: 40px;
+  text-transform: uppercase;
+}
+
+.hero-image {
+  max-width: 518px;
+  display: inline-block;
+  vertical-align: top;
 }
