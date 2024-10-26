@@ -13,5 +13,6 @@
 [Репозиторій 6-ї домашки в окремій гілці](https://github.com/ivangithubed/course-base-fr-10-2024/tree/lesson-06)
 ## Домашка по 7 уроку
 [Репозиторій 7-ї домашки в окремій гілці](https://github.com/ivangithubed/course-base-fr-10-2024/tree/lesson-07)
+[Репозиторій 8-ї домашки в окремій гілці](https://github.com/ivangithubed/course-base-fr-10-2024/tree/lesson-08)
 ## Поточний стан проекту Greenshop
 [Остання версія проекту на GithubPages](https://ivangithubed.github.io/course-base-fr-10-2024/)
