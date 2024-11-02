@@ -92,6 +92,48 @@ header button {
   font-weight: 700;
   border-block-end: 3px solid #46a358;
 }
+.header nav a:hover {
+  border-block-end: 3px solid #46a358;
+}
+.header nav>ul>li {
+  position: relative;
+  background-color: #bf2121;
+}
+li .menu-2lvl {
+  visibility: hidden;
+}
+li .menu-2lvl li {
+  height: 35px;
+  padding: 7px 14px;
+  width: 100%;
+}
+li .menu-2lvl,
+li .menu-2lvl:hover {
+  position: absolute;
+  background-color: #474242;
+  width: 180px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 12px;
+  padding-right: 2px;
+  flex-direction: column;
+}
+li:hover .menu-2lvl {
+  visibility: visible;
+}
+.menu-2lvl .for-menu-3lvl :hover  .menu-3lvl {
+
+  visibility: visible;
+}
+.menu-2lvl .menu-3lvl {
+  position: absolute;
+  /* bottom: 0; */
+  top: 0;
+  left: 100%;
+  visibility: hidden;
+  background-color: #bf2121;
+}
 
 .button {
   min-width: 100px;
@@ -310,7 +352,7 @@ li.products-menu-active {
   transition: 0.5s;
 }
 .product-bar button:hover path {
-fill: #46a358;
+  fill: #46a358;
 }
 .product-name {
   margin-block-end: 7px;
@@ -328,9 +370,9 @@ fill: #46a358;
 .product-price del {
   margin-inline-start: 16px;
   font-weight: 400;
-  color: #A5A5A5;
-  text-decoration-color: #CBCBCB; 
-  text-decoration-thickness: 1px; 
+  color: #a5a5a5;
+  text-decoration-color: #cbcbcb;
+  text-decoration-thickness: 1px;
 }
 .products footer {
   clear: both;
